@@ -5,7 +5,7 @@
 
 *65, male, retired university proffesor*
 
-Leonard was a university proffesor that his study field was geology specialized in plate tectonics. He enjoys keeping up to date with new scientific research of the earth.He has a grandson that and he loves to teach him how the earth works.
+Leonard was a university proffesor that his study field was geology specialized in plate tectonics. He enjoys keeping up to date with new scientific research of the earth. He has a grandson and he loves to teach him how the earth works.
 
 **Personal goals**
 
