@@ -1,3 +1,197 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
-	background-color: green;
+	background-color: gray;
+	font-family: 'Signika', sans-serif;
+	font-size: 1em;
+}
+
+
+header {
+	opacity: 0.9;
+	display:inline-block;
+	overflow: hidden;
+}
+
+header a img:hover,
+header a img:focus,
+header a img:active {
+	background-color:#CC00CC;
+	border-radius: 4px;
+	background-size: 50px;
+	
+}
+
+.nav {
+	padding: 0 0;
+	font-size: 1em;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	
+	list-style-type: none;
+	
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 1em;
+	margin-right: 1em;
+	
+	
+}
+
+.nav-top {
+	overflow:hidden;
+}
+
+.nav a,
+.nav a link,
+.nav a:visited {
+	display: inline-block;
+	padding: 0.5em;
+	
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	color: black;
+	background-color: gray;
+
+}
+
+
+h1 {
+	font-size: 2em;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2 {
+	padding-top: 1em;
+
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: .4em;
+
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.searchbar {
+	background-color: #b8b5b5;
+	padding: 0.5em;
+}
+
+@media only screen and (min-width: 28em) {
+	.nav {
+		text-align: center;
+
+	}
+
+	h2 {
+		padding-left: .5em;
+	}
+
+	.searchbar input {
+		width: 350px;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+
+	h1 {
+		text-align: center;
+		font-size: 3em;
+		margin: .5em 0 0em 0;
+
+	}
+	h2 {
+		padding-left: 1em;
+		font-size: 2rem;
+	}
+	.searchbar {
+		font-size: 1rem;
+	}
+
+	.searchbar input {
+		width: 480px;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+
+	.nav {
+		font-size: 1.5rem;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	.searchbar input {
+		width: 800px;
+	}
+
+}
+
+@media only screen and (min-width: 68em) {
+
+	.searchbar input {
+		width: 1000px;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media only screen and (min-width: 75em) {
+
+	.searchbar input {
+		width: 1150px;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+	float: left;	
+}
+
+
+footer img  {
+	margin-right: 1em;
+	margin-left: .5em;
+
+}
+footer {
+	background-color: black;
+	margin-top: 2em;
+	
+
+	
+
 }
