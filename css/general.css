@@ -181,6 +181,10 @@ p {
 	float: left;	
 }
 
+.i-16 {
+	height: 16px;
+	width: 16px;
+}
 
 footer img  {
 	margin-right: 1em;
