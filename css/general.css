@@ -98,10 +98,7 @@ p {
 	.searchbar input {
 		width: 350px;
 	}
-	.i-32 {
-	height: 32px;
-	width: 32px;
-	}
+	
 }
 
 @media only screen and (min-width: 40em) {
@@ -138,9 +135,6 @@ p {
 	.searchbar input {
 		width: 800px;
 	}
-
-	
-
 }
 
 @media only screen and (min-width: 68em) {
@@ -174,8 +168,8 @@ p {
 }
 
 .i-16 {
-	height: 20px;
-	width: 20px;
+	height: 25px;
+	width: 25px;
 }
 
 .facebook {
@@ -183,10 +177,8 @@ p {
 }
 
 .twitter {
-	padding: 1em 0.5em 1em 1em;	
+	padding: 1em 0.5em 1em 0;	
 }
-
-
 
 
 footer img  {
