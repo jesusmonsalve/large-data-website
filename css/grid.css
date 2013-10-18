@@ -16,9 +16,11 @@
   text-rendering: auto;
   vertical-align: top;
   word-spacing: normal;
+  
 }
 .unit-spacer {
   padding: 8px;
+
 }
 
 
@@ -48,7 +50,7 @@
   }
 }
 
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+@media only screen and (min-width: 60em) and (max-width: 60em) {
   
   .unit-m-1 {
     display: block;
