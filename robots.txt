@@ -1,2 +1,4 @@
+Sitemap: http://jesusmonsalve.github.io/large-data-website/sitemap.xml
+
 User-agent: *
 Disallow:
