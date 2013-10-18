@@ -191,6 +191,10 @@ p {
 	width: 16px;
 }
 
+.source {
+	background-color: white;
+}
+
 footer img  {
 	margin-right: 1em;
 	margin-left: .5em;
