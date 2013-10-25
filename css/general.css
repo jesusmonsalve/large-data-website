@@ -24,9 +24,8 @@ html {
 a,
 a:link,
 a:visited {
-	border-bottom: 0.1rem solid rgba(60,87,211,0.5);
 
-	color: #3c57d3;
+	color: white;
 	text-decoration: none;
 }
 
@@ -35,7 +34,7 @@ a:focus,
 a:active {
 	border-color: #1636c5;
 
-	color: #1636c5;
+	color: white;
 }
 
 .masthead {
@@ -127,19 +126,16 @@ h1 {
 	font-family: 'Merriweather Sans', sans-serif;
 	color: white;
 	text-align: center;
-	text-decoration: none;
-
 }
+
 
 h2 {
 	padding-top: 1em;
-
 }
 
 h3 {
 	margin-top: 0;
 	margin-bottom: .4em;
-
 }
 
 p {
