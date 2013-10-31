@@ -35,28 +35,13 @@
 
 	<header class="masthead clearfix"> 
 		
-		<!-- <nav class="nav nav-top">
-
-		<div class="searchbar"> 
-			<label>Search</label>
-			<input type="search" placeholder="Search">
-		</div>
-		
-		
-			<ul>
-				<li><a href="index.html">Theory</a></li>
-				<li><a href="development.html">Development</a></li>
-				<li><a href="plate-boundaries.html">Plate Boundaries</a></li>
-				<li><a href="plate-reconstruction.html">Plate Reconstruction</a></li>
-			</ul>
-		</nav>
-		-->
 		<nav class="nav nav-top" data-state="collapsed">
 			<ul>
 				<li><a href="index.html" class="{% if page.url == '/index.html' %}current{% endif%}">Theory</a></li>
 				<li><a href="development.html" class="{% if page.url == '/development.html' %}current{% endif%}">Development</a></li>
 				<li><a href="plate-boundaries.html" class="{% if page.url == '/plate-boundaries.html' %}current{% endif%}">Plate Boundaries</a></li>
-				<li><a href="plate-reconstruction.html">Plate Reconstruction</a></li>
+				<li><a href="plate-reconstruction.html" class="{% if page.url == '/plate-reconstruction.html' %}current{% endif%}">Plate Reconstruction</a></li>
+			
 			</ul>
 		</nav>
 
