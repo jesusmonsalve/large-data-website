@@ -4,6 +4,41 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute; /*To make the nav static and to hover over the content so it wont interfere*/
+	width: 100%;
+	z-index: 3000; /*This is the value to move hide the content away from the screen*/
+
+
+	font-size: 1,25rem;
+	font-weight: bold;
+	list-style-type: none;
+	
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	display:  inline-block;
+	padding: 0.5em 0.75em;
+	position: absolute;
+	top: -10em;
+
+	background-color:  #000;
+
+	color: #fff;
+	text-decoration: none;
+}
+
+.skiplinks a:focus {
+	top:0;
+}
+
+
+
 html {
 	
 	/*background-image: url(../img/brown_texture.png);
