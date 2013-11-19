@@ -16,7 +16,7 @@
 	font-size: 1,25rem;
 	font-weight: bold;
 	list-style-type: none;
-	
+
 }
 
 .skiplinks a,
@@ -40,7 +40,7 @@
 
 
 html {
-	
+
 	/*background-image: url(../img/brown_texture.png);
 	background-repeat: repeat;
 	background-position: center center;*/
@@ -71,7 +71,7 @@ a:hover,
 a:focus,
 a:active {
 	border-color: #1636c5;
-	
+
 }
 
 .masthead {
@@ -88,7 +88,7 @@ a:active {
 	right: 0;
 	width: 46px;
 
-	
+
 	border: 0;
 
 	text-indent: 100%;
@@ -141,7 +141,7 @@ a:active {
 .nav a:active {
 	background-color: #238084;
 	color: #EBBE63;
-	
+
 
 }
 
@@ -170,17 +170,15 @@ a:active {
 .banner-img {
 	display: block;
 	width: 100%;
-	
+
 }
 
 h3 {
 	text-align: center;
 	font-size: 1.6rem;
-	color: red;
-	
-
-
+	color: #f27b00;
 }
+
 img {
 	display: block;
 	width: 100%;
@@ -190,19 +188,21 @@ img {
 	margin-bottom: 0;
 	display: block;
 	width: 100%;
-	background-image: url(../img/img/banner.jpg);
-	background-size: cover; /* or contain */
+	/*background-image: url(../img/banner.jpg);*/
+	background-size: contain; /* or contain */
+	background-color: #291409;
 	padding-bottom: 10em;
 }
 
 .notfound-text {
 
-	color: gray;
+	color: #f27b00;
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
+	width: 70%;
 
-	
+
 }
 
 h1 {
@@ -238,7 +238,7 @@ figure {
 figcaption {
 	text-align: center;
 	color: #238084;
-	
+
 	font-variant: small-caps;
 
 }
@@ -268,7 +268,7 @@ figcaption {
 		margin: 0 0.5em;
 	}
 
-	
+
 
 
 }
@@ -282,12 +282,12 @@ figcaption {
 	h3 {
 		font-size: 2.5rem;
 	}
-	
+
 	.notfound-text {
 		font-size: 1.1rem;
 		width: 50%;
 	}
-	
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -300,6 +300,17 @@ figcaption {
 	p,
 	.list{
 		font-size: 1.2rem;
+	}
+
+	h3 {
+		font-size: 4rem;
+		margin-bottom: 0.5em;
+	}
+
+	.notfound-text {
+		font-size: 1.5rem;
+		width: 50%;
+
 	}
 
 }
@@ -316,7 +327,7 @@ figcaption {
 		font-size: 1.5rem;
 		float: left;
 	}
-	
+
 }
 
 .img-border {
@@ -332,7 +343,7 @@ figcaption {
 .flex-img {
 	display: block;
 	width: 100%;
-	float: left;	
+	float: left;
 }
 
 
@@ -345,20 +356,20 @@ figcaption {
 
 .copyright {
 	background-color: #291409;
-	
+
 	padding: 1.5em 1.5em 0 1.5em;
 	color: white;
 	text-align: center;
-	 
+
 	margin: 3em -1em -3em -1em;
 }
 .info-source {
 	background-color: #291409;
-	
+
 	padding: 0 1.5em 1.5em 1.5em;
 	color: white;
 	text-align: center;
-	 
+
 	margin: 3em -1em -1em -1em;
 }
 
