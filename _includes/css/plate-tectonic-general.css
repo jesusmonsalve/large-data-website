@@ -40,14 +40,24 @@
 
 
 html {
-
-	/*background-image: url(../img/brown_texture.png);
-	background-repeat: repeat;
-	background-position: center center;*/
 	font-family: 'Signika', sans-serif;
 	font-size: 1em;
+	background-color: white;
 }
 
+@media only screen and (min-width: 240px) {
+
+	body {
+		max-width: none;
+	}
+
+
+}
+
+body {
+max-width: 650px;
+margin: 0 auto;
+}
 
 .clearfix:after,
 .clearfix:before {
